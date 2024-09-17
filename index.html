@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>A Mansão dos Ecos</title>
+</head>
+<body>
+    <main>
+        <!-- Passo 1 -->
+        <div class="passo ativo" id="passo-0">
+            <img src="https://img.freepik.com/fotos-premium/velha-mansao-abandonada-assombrada-em-floresta-a-noite-assustadora-com-atmosfera-de-nevoeiro-frio-renderizacao-em-3d_34259-703.jpg" width="820" height="405" alt="A">
+            <p>Você é um investigador de fenômenos paranormais e chegou a uma mansão antiga e abandonada, famosa por sua reputação assombrada. Seu objetivo é descobrir a verdade por trás dos rumores de que almas inquietas habitam o local. Sua investigação começa agora.
+            Você entra na mansão através de uma porta rangente. O interior é sombrio, com móveis empoeirados e teias de aranha por todos os lados. Há dois corredores à sua frente: um escuro e apertado à esquerda e um mais iluminado e espaçoso à direita.</p>
+            <button class="btn-proximo" data-proximo="1">Escolher o corredor escuro</button>
+            <button class="btn-proximo" data-proximo="2">Escolher o corredor iluminado</button>
+        </div>
+
+        <!-- Passo 2 -->
+        <div class="passo" id="passo-1">
+            <p>Você opta pelo corredor escuro e apertado. À medida que avança, o som de sussurros começa a ecoar nas paredes. No final do corredor, você encontra uma porta entreaberta e um quarto vazio com uma grande caixa de madeira no centro.</p>
+            <button class="btn-proximo" data-proximo="3">Examinar a caixa de madeira</button>
+            <button class="btn-proximo" data-proximo="4">Continuar explorando o quarto vazio</button>
+        </div>
+
+        <!-- Passo 3 -->
+        <div class="passo" id="passo-2">
+            <p>Você segue pelo corredor iluminado e espaçoso. O ambiente parece menos opressivo, mas há um estranho cheiro de mofo. Você encontra duas portas: uma à esquerda com uma placa que diz "Biblioteca" e outra à direita sem nenhuma indicação.</p>
+            <button class="btn-proximo" data-proximo="5">Entrar na biblioteca</button>
+            <button class="btn-proximo" data-proximo="6">Abrir a porta sem indicação</button>
+        </div>
+
+        <!-- Passo 4 -->
+        <div class="passo" id="passo-3">
+            <p>Ao abrir a caixa de madeira, você encontra uma coleção de antigos diários. Um dos diários está mais desgastado e parece ser o mais recente. Ao ler o diário, você descobre anotações perturbadoras sobre experimentos com o sobrenatural.</p>
+            <button class="btn-proximo" data-proximo="7">Continue lendo o diário</button>
+            <button class="btn-proximo" data-proximo="8">Procure outro item na caixa</button>
+        </div>
+
+        <!-- Passo 5 -->
+        <div class="passo" id="passo-4">
+            <p>Enquanto explora o quarto vazio, a temperatura começa a cair abruptamente e um vento frio começa a soprar. Você percebe que há uma parte do chão que parece deslocada, revelando uma passagem secreta.</p>
+            <button class="btn-proximo" data-proximo="9">Descer pela passagem secreta</button>
+            <button class="btn-proximo" data-proximo="1">Retornar ao corredor</button>
+        </div>
+
+        <!-- Passo 6 -->
+        <div class="passo" id="passo-5">
+            <p>Na biblioteca, você encontra vários livros empoeirados sobre ocultismo e práticas antigas. Entre eles, um livro aberto parece conter rituais para invocar espíritos. Ao lado, uma mesa tem uma pequena caixa trancada.</p>
+            <button class="btn-proximo" data-proximo="10">Examinar o livro aberto</button>
+            <button class="btn-proximo" data-proximo="11">Tentar abrir a caixa trancada</button>
+        </div>
+
+        <!-- Passo 7 -->
+        <div class="passo" id="passo-6">
+            <p>Você abre a porta sem indicação e encontra um laboratório antigo, com frascos quebrados e equipamentos obsoletos. No centro, há uma mesa com um estranho artefato pulsante.</p>
+            <button class="btn-proximo" data-proximo="8">Examinar o artefato pulsante</button>
+            <button class="btn-proximo" data-proximo="9">Continuar explorando o laboratório</button>
+        </div>
+
+        <!-- Passo 8 -->
+        <div class="passo" id="passo-7">
+            <p>Ao continuar lendo o diário, você descobre que a mansão foi o local de rituais macabros, e a última entrada menciona uma alma que nunca descansou. Um frio súbito toma conta da sala, e você ouve sussurros atrás de você.</p>
+            <img src="https://thumbs.dreamstime.com/b/mulher-numa-biblioteca-antiga-com-livros-empilhados-em-prateleiras-e-mesas-iluminadas-por-l%C3%A2mpadas-brilhantes-quente-ai-269154347.jpg" width="820" height="405" alt="A">
+        </div>
+
+        <!-- Passo 9 -->
+        <div class="passo" id="passo-8">
+            <p>Ao procurar outro item na caixa de madeira, você encontra uma antiga chave. A chave parece antiga e tem um formato estranho. Ela pode abrir algo importante na mansão.</p>
+            <img src="" width="820" height="405" alt="A">
+        </div>
+
+        <!-- Passo 10 -->
+        <div class="passo" id="passo-9">
+            <p>Você desce pela passagem secreta e encontra um antigo altar com símbolos estranhos. O altar está coberto por uma camada de poeira e um livro aberto parece estar à espera de ser lido.</p>
+            <button class="btn-proximo" data-proximo="10">Ler o livro aberto</button>
+            <button class="btn-proximo" data-proximo="11">Examinar o altar</button>
+        </div>
+
+        <!-- Passo 11 -->
+        <div class="passo" id="passo-10">
+            <p>Você examina o livro aberto e lê sobre um ritual de banimento de espíritos. Parece que a mansão foi usada para realizar rituais para controlar ou aprisionar almas. O ritual de banimento pode ser a chave para resolver a presença assombrada.</p>
+            <img src="" width="820" height="405" alt="A">
+        </div>
+
+        <!-- Passo 12 -->
+        <div class="passo" id="passo-11">
+            <p>Você tenta abrir a caixa trancada e dentro encontra um amuleto antigo com inscrições escuras. O amuleto emite uma leve aura e parece ser uma chave para entender o que está acontecendo na mansão.</p>
+            <img src="https://thumbs.dreamstime.com/b/antiga-mesa-de-biblioteca-com-pilha-caf%C3%A9-e-caneta-literatura-gerada-por-ai-velha-intelig%C3%AAncia-artificial-280145565.jpg" width="820" height="405" alt="A">
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
